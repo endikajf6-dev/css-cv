@@ -1,0 +1,198 @@
+body {
+background: rgb(248, 246, 192);
+color: black;
+
+font-size: 16px;
+font-weight: 600;
+font-family: "Roboto", sans-serif;
+
+/* font-family: 'Courier New', Courier, monospace; */
+}
+
+a {
+color: black; 
+text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+color: rgb(124, 0, 249);
+}
+.avatar {
+width: 200px;
+border-radius: 28px;
+box-shadow: -12px -10px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+    text-align: center;
+    display: block;    
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info h4 {
+    margin-bottom: 10px;
+}
+
+
+
+.info p {
+color: rgb(124, 0, 249); 
+margin: 0; 
+font-style: italic;
+} 
+/* Box Model*/
+.container {
+max-width: 750px;
+margin: auto;
+padding-top: 30px;
+}
+
+.social {
+/* display: flex; */
+}
+
+.education {
+background-color: yellow;
+padding: 15px;
+border-radius: 10px;
+}
+
+.education h3 {
+margin-top: 20px;
+}
+
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.education th, .education td {
+    border: 1px solid #000;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.education th {
+    background-color: #ffeb3b;
+    font-weight: bold;
+}
+.education {
+    margin-bottom: 20px;
+}
+.education {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.education h3 {
+    text-align: center;
+}
+
+.centrer h2 {
+    text-align: center;
+}
+
+.bg-blue {
+background: rgb(100, 100, 227)
+}
+
+.bg-green {
+background: rgb(60, 186, 60);
+}
+
+.bg-red {
+background: rgb(247, 89, 89);
+}
+
+.bg-orange {
+background: rgb(243, 173, 44);
+}
+
+
+.card {
+   padding: 15px 20px;
+
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li {
+    margin-bottom: 10px;
+}
+
+.table {
+    padding: 0 100px;
+}
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid black;
+}
+.music {
+    padding: 0 20px;
+}
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+     
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+background: #111; 
+padding: 15px 20px;
+color: #fff;
+border: none;
+font-family: inherit;
+cursor: pointer;
+}
+
+.btn:hover {
+opacity: 0.9;
+}
